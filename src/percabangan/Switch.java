@@ -2,25 +2,25 @@ package percabangan;
 
 public class Switch {
     public static void main(String[] args) {
-        int karakter=2;
-        switch (karakter){
-            case 1:
-                System.out.println("Sorceress");
+        char action='B';
+        switch (action){
+            case 'A':
+                System.out.println("UwU");
                 break;
-            case 2:
-                System.out.println("Guardian");
+            case 'B':
+                System.out.println("Nyaaawww :3");
                 break;
-            case 3:
-                System.out.println("Mystic");
+            case 'C':
+                System.out.println("Mbekkkk");
                 break;
-            case 4:
-                System.out.println("Lahn");
+            case 'D':
+                System.out.println("Hai normiez");
                 break;
-            case 5:
-                System.out.println("Berserker");
+            case 'E':
+                System.out.println("NANNIIII!!!");
                 break;
             default:
-                System.out.println("Loli");
+                System.out.println("Omaewa mo shindeiru");
                 break;
         }
     }
