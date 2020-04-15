@@ -9,5 +9,10 @@ public class OperasiString {
         char[] uniskaChar = {'U','N','I','S','K','A'};
         String uniskaString = new String(uniskaChar);
         System.out.println(uniskaString);
+
+        System.out.println(anime.toUpperCase());
+        System.out.println(anime.toLowerCase());
+        System.out.println(anime.substring(9));
+        System.out.println(anime.substring(0,8));
     }
 }
